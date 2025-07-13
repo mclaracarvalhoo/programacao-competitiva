@@ -1,0 +1,10 @@
+# 339A - Helpful Maths
+
+conta = list(map(int, input().split('+')))
+
+ordem = sorted(conta)
+vezes = len(conta)
+for _ in conta[len(conta)-1]:
+    saida += ordem[_] + '+'
+
+print(saida)
